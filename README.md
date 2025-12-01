@@ -144,30 +144,28 @@
 
 </style>
 
-
-
 <div class="cyber-profile-container">
 
-  <div class="hero-holographic">
+    <div class="hero-holographic">
         <h1 class="hero-title">INITIATING PROFILE SEQUENCE...</h1>
-        <p class="hero-subtitle">-- Geo Cherian Mathew -- | System: ONLINE | Status: Coding.</p>
+        <p class="hero-subtitle">-- [Your Name] (ritik307) -- | System: ONLINE | Status: Coding.</p>
     </div>
 
-   <div class="cyber-card">
+    <div class="cyber-card">
         <h2 class="cyber-heading">📡 Developer Log // STATUS: ACTIVE</h2>
         <p style="line-height: 1.6; color: #c9d1d9;">
-            <span class="glitch-text">ACCESS GRANTED.</span> I am a CSE student driven by the desire to merge design intuition with engineering precision.
+            <span class="glitch-text">ACCESS GRANTED.</span> I am a **[Your Status, e.g., M.Tech Student, Full Stack Developer]** driven by the desire to merge design intuition with engineering precision.
             <br>
-            My current objective involves specializing in AI/ML, Web Development,Computer Vision and contributing to open-source projects.
+            My current objective involves specializing in **[Current Focus, e.g., high-performance backends using Rust]** and contributing to open-source projects.
             <br>
             <br>
-            **&gt; Contact Signal:** [gingercatmonster19@gmail.com]
+            **&gt; Contact Signal:** [ritikp307@gmail.com]
             <br>
-            **&gt; Portfolio Link:** <a href="https://geo-cherian-mathew-2k28.github.io/geo-portfolio/" style="color: #ff00c3; text-decoration: none;">[Your Portfolio URL]</a>
+            **&gt; Portfolio Link:** <a href="[Your Portfolio URL]" style="color: #ff00c3; text-decoration: none;">[Your Portfolio URL]</a>
         </p>
     </div>
 
-   <div class="cyber-card">
+    <div class="cyber-card">
         <h2 class="cyber-heading">⚙️ Technology Matrix // CORE STACK</h2>
         <div class="tech-grid">
             <span class="tech-badge-colorful">React.js</span>
@@ -181,16 +179,16 @@
         </div>
     </div>
     
-  <div class="cyber-card">
+    <div class="cyber-card">
         <h2 class="cyber-heading">📊 Performance Monitor // GITHUB STATS</h2>
         <div class="stats-layout-grid">
             <img src="https://github-readme-stats.vercel.app/api?username=[ritik307]&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
             
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[ritik307]&layout=compact&theme=vue-dark&hide_border=true" alt="Top Languages" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[ritik307]&layout=compact&theme=vue-dark&hide_border=true" alt="Top Languages" />
         </div>
     </div>
     
-   <div class="cyber-card" style="text-align: center;">
+    <div class="cyber-card" style="text-align: center;">
          <h2 class="cyber-heading">🔥 System Activity // STREAK DISPLAY</h2>
          <img src="https://github-readme-streak-stats.herokuapp.com/?user=[ritik307]&theme=dark&hide_border=true" alt="GitHub Streak" style="max-width: 600px;"/>
          <p style="margin-top: 15px; color: #00ff7f;">**Keep the streak alive. Keep the system running.**</p>
