@@ -1,197 +1,29 @@
-<style>
-    /* 1. Global Setup (Dark Mode Foundation) */
-    .cyber-profile-container {
-        font-family: 'Consolas', 'Courier New', monospace; /* Monospaced for a tech feel */
-        background-color: #010409; /* Deep Black background */
-        color: #00ff7f; /* Neon Green default text */
-        padding: 30px 0;
-        overflow: hidden; /* Important for animations */
-        text-align: center;
-    }
-
-    /* 2. Keyframe Animations */
-    
-    /* Neon Pulse for glowing elements */
-    @keyframes neonPulse {
-        0% { box-shadow: 0 0 5px #00ff7f, 0 0 10px #00ff7f; }
-        50% { box-shadow: 0 0 10px #00e5e5, 0 0 20px #00e5e5; }
-        100% { box-shadow: 0 0 5px #00ff7f, 0 0 10px #00ff7f; }
-    }
-
-    /* Scanner Effect for text */
-    @keyframes textScanner {
-        0% { opacity: 0.5; text-shadow: 0 0 1px #ff00c3; }
-        70% { opacity: 1; text-shadow: 0 0 5px #00ff7f; }
-        100% { opacity: 0.5; text-shadow: 0 0 1px #ff00c3; }
-    }
-
-    /* Holographic Glitch for cards on hover */
-    @keyframes holographicGlitch {
-        0%, 100% { transform: translate(0, 0); }
-        20% { transform: translate(-2px, 2px); }
-        40% { transform: translate(2px, -2px); }
-        60% { transform: translate(-1px, 1px); }
-        80% { transform: translate(1px, -1px); }
-    }
-
-    /* 3. Hero Section Styling */
-    .hero-holographic {
-        background: linear-gradient(135deg, #0c1421 0%, #171d2b 100%);
-        border: 2px solid #ff00c3; /* Magenta border */
-        border-radius: 12px;
-        padding: 50px 20px;
-        margin-bottom: 40px;
-        position: relative;
-        animation: neonPulse 3s infinite alternate; /* Apply neon pulse */
-    }
-
-    .hero-title {
-        color: #00e5e5; /* Cyan for main title */
-        font-size: 3em;
-        font-weight: 700;
-        margin-bottom: 10px;
-        text-shadow: 0 0 10px #00e5e5;
-        animation: textScanner 2s infinite ease-in-out; /* Apply scanner animation */
-    }
-
-    .hero-subtitle {
-        color: #ff00c3; /* Magenta subtitle */
-        font-size: 1.3em;
-        font-style: italic;
-    }
-
-    /* 4. Section Card Styling (The core container) */
-    .cyber-card {
-        background-color: #0c1421; /* Dark card background */
-        border-radius: 8px;
-        padding: 25px;
-        margin-bottom: 30px;
-        box-shadow: 0 0 15px rgba(0, 255, 127, 0.2); /* Soft green glow */
-        transition: all 0.4s ease-in-out;
-        text-align: left;
-        position: relative;
-    }
-
-    .cyber-card:hover {
-        border-left: 5px solid #ff00c3; /* Magenta indicator on hover */
-        box-shadow: 0 0 25px rgba(0, 229, 229, 0.4); /* Stronger cyan glow */
-        animation: holographicGlitch 0.5s 1; /* Quick glitch on hover */
-    }
-
-    /* 5. Heading Styling */
-    .cyber-heading {
-        color: #00ff7f; /* Neon Green */
-        font-size: 1.8em;
-        padding-bottom: 8px;
-        margin-bottom: 20px;
-        border-bottom: 2px dashed #ff00c3;
-        font-weight: 600;
-    }
-
-    /* 6. Technology Badges - Advanced Glow */
-    .tech-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .tech-badge-colorful {
-        display: inline-block;
-        padding: 8px 15px;
-        border-radius: 5px;
-        font-size: 0.9em;
-        font-weight: bold;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        background: #171d2b;
-        border: 1px solid #00e5e5;
-        color: #00e5e5;
-    }
-
-    .tech-badge-colorful:hover {
-        background: #ff00c3; /* Magenta background on hover */
-        color: #010409;
-        box-shadow: 0 0 10px #ff00c3;
-        transform: scale(1.05);
-    }
-    
-    /* 7. Stats Layout - Grid for modern look */
-    .stats-layout-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .stats-layout-grid img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        /* Custom card background for stats cards (if applicable) */
-        background-color: #0c1421; 
-        padding: 10px; 
-    }
-
-    /* 8. Glitch Effect on Text (Used sparingly) */
-    .glitch-text {
-        font-weight: 700;
-        color: #00ff7f;
-        text-shadow: 1px 1px #ff00c3, -1px -1px #00e5e5;
-        transition: text-shadow 0.3s ease;
-    }
-
-</style>
-
-<div class="cyber-profile-container">
-
-    <div class="hero-holographic">
-        <h1 class="hero-title">INITIATING PROFILE SEQUENCE...</h1>
-        <p class="hero-subtitle">-- [Your Name] (ritik307) -- | System: ONLINE | Status: Coding.</p>
-    </div>
-
-    <div class="cyber-card">
-        <h2 class="cyber-heading">📡 Developer Log // STATUS: ACTIVE</h2>
-        <p style="line-height: 1.6; color: #c9d1d9;">
-            <span class="glitch-text">ACCESS GRANTED.</span> I am a **[Your Status, e.g., M.Tech Student, Full Stack Developer]** driven by the desire to merge design intuition with engineering precision.
-            <br>
-            My current objective involves specializing in **[Current Focus, e.g., high-performance backends using Rust]** and contributing to open-source projects.
-            <br>
-            <br>
-            **&gt; Contact Signal:** [ritikp307@gmail.com]
-            <br>
-            **&gt; Portfolio Link:** <a href="[Your Portfolio URL]" style="color: #ff00c3; text-decoration: none;">[Your Portfolio URL]</a>
-        </p>
-    </div>
-
-    <div class="cyber-card">
-        <h2 class="cyber-heading">⚙️ Technology Matrix // CORE STACK</h2>
-        <div class="tech-grid">
-            <span class="tech-badge-colorful">React.js</span>
-            <span class="tech-badge-colorful">Node.js</span>
-            <span class="tech-badge-colorful">TypeScript</span>
-            <span class="tech-badge-colorful">MongoDB</span>
-            <span class="tech-badge-colorful">C++</span>
-            <span class="tech-badge-colorful">Docker</span>
-            <span class="tech-badge-colorful">AWS</span>
-            <span class="tech-badge-colorful">Python</span>
-        </div>
-    </div>
-    
-    <div class="cyber-card">
-        <h2 class="cyber-heading">📊 Performance Monitor // GITHUB STATS</h2>
-        <div class="stats-layout-grid">
-            <img src="https://github-readme-stats.vercel.app/api?username=[ritik307]&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-            
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[ritik307]&layout=compact&theme=vue-dark&hide_border=true" alt="Top Languages" />
-        </div>
-    </div>
-    
-    <div class="cyber-card" style="text-align: center;">
-         <h2 class="cyber-heading">🔥 System Activity // STREAK DISPLAY</h2>
-         <img src="https://github-readme-streak-stats.herokuapp.com/?user=[ritik307]&theme=dark&hide_border=true" alt="GitHub Streak" style="max-width: 600px;"/>
-         <p style="margin-top: 15px; color: #00ff7f;">**Keep the streak alive. Keep the system running.**</p>
-    </div>
-
-</div>
+<h3>When I code, I rely on</h3>
+<p>
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="Javascript" src="https://img.shields.io/badge/-javascript-f7df1c?style=flat-square&logo=javascript&logoColor=black" />
+  <img alt="Bootstrap" src="https://img.shields.io/badge/-bootstrap-7953b3?style=flat-square&logo=javascript&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
+  <img alt="Jest" src="https://img.shields.io/badge/-jest-be3d19?style=flat-square&logo=jest&logoColor=white" />
+  <img alt="Adobe Photoshop" src="https://img.shields.io/badge/-adobe%20photoshop-30a8ff?style=flat-square&logo=adobe%20photoshop&logoColor=white" />
+  <img alt="Adobe XD" src="https://img.shields.io/badge/-Adobe%20XD-ff62f6?style=flat-square&logo=Adobe%20XD&logoColor=white" />
+  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+  <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+  <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
+  <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white" />
+  <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
+  <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
+  <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=flat-square&logo=styled-components&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="NestJs" src="https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white" />
+  <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
+  <img alt="d3js" src="https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
+  <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+</p>
