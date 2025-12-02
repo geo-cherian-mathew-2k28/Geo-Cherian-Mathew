@@ -4,7 +4,6 @@
 
 
 
-
 <div align="center">
     <img src="https://skillicons.dev/icons?i=golang,python,rust,typescript,javascript,kotlin,vue,c,nextjs,dotnet" />
     
@@ -13,10 +12,8 @@
 
 
 
-
     <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,bootstrap,materialui,react,vite,flutter,jquery,threejs,express,fastapi,flask,ktor,graphql,prisma,redis,mongodb,postgres,sqlite,opencv,tensorflow,docker,heroku,netlify,vercel,aws,azure,gcp,cloudflare,nginx,gradle,bash,cypress,selenium,qt,gtk,electron,arduino,java,idea,androidstudio,md&perline=8" />
     
-
 
 
 
@@ -33,10 +30,8 @@
 
 
 
-
 <img src="https://github-readme-stats-alpha-snowy-32.vercel.app/api/top-langs/?username=amarnathcjd&theme=dark&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide_border=true" alt="Top Languages">
 <img src="https://raw.githubusercontent.com/amarnathcjd/github-stats/master/generated/overview.svg#gh-dark-mode-only" alt="Github Visual Stats">
-
 
 
 
@@ -49,9 +44,7 @@
 
 
 
-
 <p><a href="https://www.buymeacoffee.com/amarnathcjd"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="amarnathcjd" /></a></p>
-
 
 
 
