@@ -26,10 +26,6 @@
 <br/><br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=geo-cherian-mathew-2k28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" alt="Geo's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geo-cherian-mathew-2k28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" alt="Top Languages" />
-</div>
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=geo-cherian-mathew-2k28&theme=tokyonight&hide_border=true&background=0D1117" height="170" alt="Streak" />
 </div>
 
