@@ -45,7 +45,7 @@
 
 <h2 align="center">🚀 Technology Arsenal</h2>
 <div align="center">
- <img src="https://skillicons.dev/icons?i=python,java,c,cpp,rust,bash,react,nextjs,typescript,javascript,html,css,tailwindcss,flutter,kotlin,androidstudio,nodejs,flask,fastapi,postgres,mongodb,firebase,sqlite,tensorflow,opencv,docker,aws,arduino,git,linux&perline=12" />
+ <img src="https://skillicons.dev/icons?i=go,python,java,c,cpp,rust,bash,react,nextjs,typescript,javascript,html,css,tailwindcss,flutter,kotlin,androidstudio,nodejs,flask,fastapi,postgres,mongodb,firebase,sqlite,tensorflow,opencv,docker,aws,arduino,git,linux&perline=12" />
 </div>
 
 <br/>
