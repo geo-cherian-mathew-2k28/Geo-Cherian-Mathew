@@ -47,7 +47,7 @@
 
 <h2 align="center">Technology Arsenal i have used so far</h2>
 <div align="center">
- <img src="https://skillicons.dev/icons?i=go,python,java,c,bash,react,nextjs,typescript,javascript,html,css,tailwindcss,androidstudio,nodejs,flask,fastapi,supabase,mongodb,sqlite,tensorflow,opencv,docker,arduino,git&perline=12" />
+ <img src="https://skillicons.dev/icons?i=go,python,java,c,bash,react,nextjs,typescript,javascript,html,css,tailwindcss,androidstudio,nodejs,flask,fastapi,supabase,mongodb,sqlite,astro,tensorflow,opencv,docker,arduino,git&perline=12" />
 </div>
 
 <br/>
